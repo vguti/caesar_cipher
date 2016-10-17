@@ -1,8 +1,6 @@
 def caesar_cipher(sentence,y=-3)
   
-
 	text=sentence.downcase.split("")
-
 	text.map! do |item|
 		if item == " "
 			print item
@@ -18,4 +16,4 @@ def caesar_cipher(sentence,y=-3)
 	end
 end
 
-caesar_cipher("p| uhdo qdph lv grqdog gxfn")
+caesar_cipher ("pb uhdo qdph lv grqdog gxfn")
